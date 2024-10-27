@@ -43957,9 +43957,9 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   font-size: 3rem;
   font-style: normal;
-  font-weight: 100;
   text-transform: none;
   width: 530px;
+  font-weight: 700;
   margin: 20px auto 0;
 }
 
@@ -43984,12 +43984,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-icon-2 {
   height: 32px;
-  color: rgb(85, 172, 238) !important;
 }
 
 .u-footer .u-icon-3 {
   height: 32px;
-  color: rgb(197, 54, 164) !important;
 }
 
 .u-footer .u-text-3 {
