@@ -43955,9 +43955,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-1 {
-  font-size: 3rem;
-  font-style: normal;
-  text-transform: none;
   width: 530px;
   font-weight: 700;
   margin: 20px auto 0;
@@ -43994,13 +43991,15 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 417px;
   margin: 17px auto 20px;
 }
-
-
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .u-footer .u-text-1 {
     font-size: 2.25rem;
+    font-style: normal;
+    text-transform: none;
   }
 }
+
+
 @media (max-width: 575px) {
   .u-footer .u-text-1 {
     font-size: 1.875rem;
