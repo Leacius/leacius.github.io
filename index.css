@@ -763,11 +763,6 @@
   margin: 28px auto 60px;
 }
 
-.u-section-5 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
 @media (max-width: 991px) {
   .u-section-5 .u-text-1 {
     width: 720px;
