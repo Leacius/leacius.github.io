@@ -876,6 +876,8 @@
 
 .u-section-6 .u-text-1 {
   font-weight: 700;
+  text-transform: none;
+  font-size: 2.25rem;
   margin: 60px auto 0;
 }
 
@@ -918,18 +920,9 @@
   margin: 0 auto;
 }
 
-.u-section-6 .u-container-layout-4 {
-  padding: 30px;
-}
-
 @media (max-width: 1199px) {
   .u-section-6 .u-sheet-1 {
     min-height: 388px;
-  }
-
-  .u-section-6 .u-text-1 {
-    text-transform: none;
-    font-size: 2.25rem;
   }
 
   .u-section-6 .u-image-1 {
@@ -999,11 +992,6 @@
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 362px;
-  }
-
-  .u-section-6 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
