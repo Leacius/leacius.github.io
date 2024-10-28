@@ -877,7 +877,7 @@
 
 .u-section-6 .u-text-1 {
   font-weight: 700;
-  margin: 55px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-6 .u-layout-wrap-1 {
@@ -915,6 +915,10 @@
   width: 198px;
   height: 88px;
   margin: 0 auto;
+}
+
+.u-section-6 .u-container-layout-4 {
+  padding: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -995,6 +999,11 @@
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 362px;
+  }
+
+  .u-section-6 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
