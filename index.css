@@ -670,7 +670,6 @@
   .u-section-4 .u-text-9 {
     margin-left: 9px;
     margin-right: 9px;
-    width: auto;
   }
 
   .u-section-4 .u-text-10 {
@@ -888,6 +887,7 @@
 .u-section-6 .u-image-1 {
   min-height: 153px;
   background-image: url("images/311.png");
+  background-position: 50% 50%;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -897,6 +897,7 @@
 .u-section-6 .u-image-2 {
   min-height: 153px;
   background-image: url("images/images.png");
+  background-position: 50% 50%;
 }
 
 .u-section-6 .u-container-layout-2 {
@@ -933,7 +934,6 @@
 
   .u-section-6 .u-image-1 {
     min-height: 126px;
-    background-position: 50% 50%;
     background-size: cover;
   }
 
