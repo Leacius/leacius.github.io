@@ -46909,13 +46909,19 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 87px;
+  min-height: 216px;
+}
+
+.u-footer .u-image-1 {
+  width: 293px;
+  height: 82px;
+  margin: 41px auto 0;
 }
 
 .u-footer .u-text-1 {
   font-size: 1.25rem;
   width: 417px;
-  margin: 28px auto;
+  margin: 20px auto 41px;
 }
 
 
