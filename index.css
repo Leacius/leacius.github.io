@@ -448,11 +448,6 @@
 }
 
 .u-section-4 .u-text-1 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
   font-family: "ADLaM Display";
   margin: -1237px auto 0;
 }
@@ -471,11 +466,6 @@
 
 .u-section-4 .u-list-item-1 {
   background-image: none;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   --radius: 30px;
 }
 
@@ -514,11 +504,6 @@
 
 .u-section-4 .u-list-item-2 {
   background-size: auto;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   --radius: 30px;
 }
 
@@ -557,11 +542,6 @@
 
 .u-section-4 .u-list-item-3 {
   background-size: auto;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   --radius: 30px;
 }
 
@@ -600,11 +580,6 @@
 
 .u-section-4 .u-list-item-4 {
   background-size: auto;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   --radius: 30px;
 }
 
@@ -647,6 +622,11 @@
   }
 
   .u-section-4 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
     margin-top: -717px;
   }
 
@@ -657,6 +637,14 @@
   .u-section-4 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 20.6667px));
     grid-gap: 31px;
+  }
+
+  .u-section-4 .u-list-item-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-image-1 {
@@ -680,6 +668,14 @@
     margin-left: 151px;
   }
 
+  .u-section-4 .u-list-item-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
   .u-section-4 .u-image-2 {
     margin-top: -103px;
   }
@@ -697,6 +693,14 @@
   .u-section-4 .u-text-7 {
     margin-right: 0;
     margin-left: 151px;
+  }
+
+  .u-section-4 .u-list-item-3 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-image-3 {
@@ -718,6 +722,14 @@
   .u-section-4 .u-text-10 {
     margin-right: 0;
     margin-left: 151px;
+  }
+
+  .u-section-4 .u-list-item-4 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-4 .u-image-4 {
@@ -957,11 +969,6 @@
 }
 
 .u-section-5 .u-text-1 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
   font-family: "ADLaM Display";
   margin: -835px auto 0;
 }
@@ -979,6 +986,13 @@
 }
 
 .u-section-5 .u-list-item-1 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1002,6 +1016,13 @@
 }
 
 .u-section-5 .u-list-item-2 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1030,6 +1051,13 @@
 }
 
 .u-section-5 .u-list-item-3 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1058,6 +1086,13 @@
 }
 
 .u-section-5 .u-list-item-4 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1081,6 +1116,13 @@
 }
 
 .u-section-5 .u-list-item-5 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1104,6 +1146,13 @@
 }
 
 .u-section-5 .u-list-item-6 {
+  background-size: auto;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  --radius: 30px;
   --animation-fade_in-opacity: 0;
 }
 
@@ -1132,6 +1181,11 @@
   }
 
   .u-section-5 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
     margin-top: -717px;
   }
 
@@ -1140,43 +1194,13 @@
     grid-gap: 31px;
   }
 
-  .u-section-5 .u-list-item-1 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
-  }
-
   .u-section-5 .u-text-2 {
     margin-top: -194px;
-  }
-
-  .u-section-5 .u-list-item-2 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
   }
 
   .u-section-5 .u-text-4 {
     margin-top: 141px;
     margin-left: 151px;
-  }
-
-  .u-section-5 .u-list-item-3 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
   }
 
   .u-section-5 .u-text-6 {
@@ -1188,43 +1212,13 @@
     margin-top: -39px;
   }
 
-  .u-section-5 .u-list-item-4 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
-  }
-
   .u-section-5 .u-text-8 {
     margin-top: -194px;
     margin-left: 151px;
   }
 
-  .u-section-5 .u-list-item-5 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
-  }
-
   .u-section-5 .u-text-10 {
     margin-top: -194px;
-  }
-
-  .u-section-5 .u-list-item-6 {
-    background-size: auto;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    --radius: 30px;
   }
 
   .u-section-5 .u-text-12 {
