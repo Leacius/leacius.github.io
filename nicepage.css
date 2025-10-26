@@ -46814,6 +46814,11 @@ a.u-link.u-text-hover-color-var:hover {
   margin: 24px 0 0 auto;
 }
 
+.u-header .u-hamburger-link-1 {
+  font-size: calc(1em + 8px);
+  padding: 4px 0;
+}
+
 .u-header .u-nav-1 {
   font-size: 1rem;
 }
@@ -46924,11 +46929,33 @@ a.u-link.u-text-hover-color-var:hover {
   margin: 20px auto 41px;
 }
 
+@media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 183px;
+  }
 
+  .u-footer .u-image-1 {
+    margin-top: 28px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 13px;
+    margin-bottom: 28px;
+  }
+}
 
 @media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 166px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: 24px;
+  }
+
   .u-footer .u-text-1 {
-    width: 340px;
+    width: auto;
+    margin: 4px 0 24px;
   }
 }
 
