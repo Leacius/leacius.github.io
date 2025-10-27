@@ -103,8 +103,8 @@
   width: 358px;
   height: 358px;
   background-image: url("images/462577346_1748648392576265_3318393317210705650_n.jpg");
-  background-position: 50% 20.53%;
-  background-size: cover;
+  background-position: 59.99% 12.6%;
+  background-size: 191%;
   margin: 42px auto 0 92px;
 }
 
@@ -287,6 +287,7 @@
 .u-section-3 .u-image-2 {
   height: 221px;
   --radius: 30px;
+  object-position: 50% 3.03%;
   margin: 0 auto 0 0;
 }
 
@@ -536,7 +537,7 @@
 .u-section-4 .u-image-1 {
   width: 374px;
   height: 207px;
-  object-position: 50% 0%;
+  object-position: 50% 3.61%;
   margin: 0 auto 0 30px;
 }
 
