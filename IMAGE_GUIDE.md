@@ -12,7 +12,7 @@
 | 影像與超音波跌倒偵測 | `images/16.png`（與論文共用） |
 | 生物組織大規模三維重建 | `images/kernel-fft-diagram.png`（Kernel → 2D FFT → FFT Kernel 示意圖） |
 | FLOW 論文 | `images/table-tennis-paddle.svg`（可愛桌球拍示意圖） |
-| SECG（ACCV 2026）論文 | `images/placeholders/secg.svg` |
+| SECG（ACCV 2026）論文 | `images/gesture-hand.svg`（可愛手勢示意圖） |
 | IEEE VRW 2026 論文 | `images/table-tennis-paddle.svg`（可愛桌球拍示意圖） |
 
 ## 替換方式

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+  <title id="title">A cheerful waving hand</title>
+  <desc id="desc">A friendly open hand with a smiling face and rosy cheeks on a pale blue background, illustrating gesture recognition.</desc>
+  <rect width="480" height="320" rx="24" fill="#eef5f7"/>
+  <circle cx="240" cy="156" r="112" fill="#e0eef0"/>
+  <ellipse cx="240" cy="282" rx="76" ry="9" fill="#dce9ed"/>
+  <g transform="rotate(-12 240 165)">
+    <path d="M182 170V104q0-13 13-13t13 13v44V75q0-13 13-13t13 13v66V60q0-13 13-13t13 13v83V84q0-13 13-13t13 13v93l17-24q10-13 21-3t1 24l-31 51q-18 29-50 29h-19q-43 0-43-43Z" fill="#f3c69e" stroke="#b47d59" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M196 111v26m25-55v50m26-63v61m26-37v46" fill="none" stroke="#ffe2c6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M285 178q-20 4-24 26" fill="none" stroke="#dba780" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="210" cy="192" rx="10" ry="6" fill="#eb9d94"/>
+    <ellipse cx="253" cy="192" rx="10" ry="6" fill="#eb9d94"/>
+    <circle cx="216" cy="179" r="4.5" fill="#674b44"/>
+    <circle cx="248" cy="179" r="4.5" fill="#674b44"/>
+    <path d="M224 194q8 10 16 0" fill="none" stroke="#674b44" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#93bac7" stroke-width="4" stroke-linecap="round">
+    <path d="M133 115q-10 17-8 35m-10-47q-15 26-11 51M327 94q13 13 17 32m-7-47q20 18 26 45M338 210v14m-7-7h14"/>
+  </g>
+</svg>
