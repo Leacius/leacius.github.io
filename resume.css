@@ -17,6 +17,8 @@ section[id] { scroll-margin-top: 24px; }
 .skill-list li { background: #edf2f5; color: #35576e; padding: 8px 18px; border-radius: 999px; font-weight: 600; }
 .project-card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
 .project-image { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; background: #eef2f5; }
+.project-figure, .project-video { object-fit: contain; }
+.project-video { background: #101820; }
 .project-body { padding: 28px; display: flex; flex: 1; flex-direction: column; align-items: flex-start; }
 .project-body .entry-highlight { margin-top: auto; padding-top: 14px; }
 .publication-entry { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 28px; padding: 28px 0; border-bottom: 1px solid #dde4e9; align-items: start; }
