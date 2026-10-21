@@ -59,4 +59,10 @@ a:focus-visible { outline: 3px solid #478ac9; outline-offset: 5px; }
   .status-badge { margin-left: 0; }
   .u-section-1 .u-text-2, .u-section-1 .u-text-3 { width: 100%; }
 }
+@media (max-width: 359px) {
+  /* The original template assumes a 340px content area even on 320px screens. */
+  .u-body .u-sheet { width: calc(100% - 40px) !important; }
+  .u-section-3 .u-list-1, .u-section-3 .u-text-1 { width: calc(100% - 40px); }
+  .u-section-1 .u-text-3 { overflow-wrap: anywhere; }
+}
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
