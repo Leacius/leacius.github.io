@@ -1,0 +1,10 @@
+/* Render every state immediately, including menus and hover effects. */
+html,
+body,
+*,
+*::before,
+*::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}

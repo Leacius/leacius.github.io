@@ -1,5 +1,5 @@
 /* Resume content uses natural document flow so longer entries stay readable. */
-html { scroll-behavior: smooth; }
+html { scroll-behavior: auto; }
 section[id] { scroll-margin-top: 24px; }
 .resume-section { padding: 72px 24px; color: #283541; background: #fff; }
 .resume-tinted { background: linear-gradient(180deg, #e9edf0, #f8f9fa); }
@@ -65,4 +65,3 @@ a:focus-visible { outline: 3px solid #478ac9; outline-offset: 5px; }
   .u-section-3 .u-list-1, .u-section-3 .u-text-1 { width: calc(100% - 40px); }
   .u-section-1 .u-text-3 { overflow-wrap: anywhere; }
 }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
