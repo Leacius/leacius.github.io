@@ -36,6 +36,11 @@ section[id] { scroll-margin-top: 24px; }
 .teaching-entry h3 { font-size: 1.15rem; }
 .teaching-entry p { margin-bottom: 0; }
 a:focus-visible { outline: 3px solid #478ac9; outline-offset: 5px; }
+.u-header .u-social-icons { width: 197px; gap: 8px; }
+.u-header .scholar-icon { color: #4285f4; }
+@media (max-width: 575px) {
+  .u-header .u-social-icons { width: 162px; height: 26px; margin-top: -30px; }
+}
 
 /* Keep the existing portrait and biography together without negative margins. */
 #about .u-sheet-1 { display: grid; grid-template-columns: minmax(240px, 358px) minmax(0, 1fr); column-gap: 64px; padding: 48px 24px; min-height: 0; align-items: center; }
