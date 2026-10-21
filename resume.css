@@ -26,7 +26,11 @@ section[id] { scroll-margin-top: 24px; }
 .publication-entry:last-child { border-bottom: 0; padding-bottom: 0; }
 .publication-entry img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; background: #f1f4f6; border-radius: 10px; }
 .publication-entry .authors { font-size: .9rem; color: #5b6b77; margin-bottom: 0; }
+.publication-entry .publication-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; }
+.publication-links a { display: inline-block; padding: 5px 14px; border: 1px solid #b8cbd8; border-radius: 7px; color: #315b75; background: #f4f8fa; font-size: .85rem; font-weight: 700; text-decoration: none; }
+.publication-links a:hover { color: #fff; background: #315b75; border-color: #315b75; }
 .status-badge { display: inline-block; color: #78561f; background: #fff1d9; border-radius: 6px; padding: 2px 9px; margin-left: 8px; font-weight: 700; }
+.status-accepted { color: #276447; background: #e6f3eb; }
 .teaching-entry { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid #d7dfe5; padding: 24px 0; }
 .teaching-entry:last-child { border: 0; padding-bottom: 0; }
 .teaching-entry h3 { font-size: 1.15rem; }

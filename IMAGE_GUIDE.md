@@ -1,6 +1,6 @@
 # 補上專案與論文圖片
 
-首頁已保留原本的大頭照、研究興趣圖片與四篇既有論文圖片。桌球分析專案使用 `video/` 中的示範影片，可透過播放器手動播放；兒童篩檢、醫學影像與跌倒偵測專案使用下方對應論文的圖片。尚未提供素材的項目保留獨立的 SVG 佔位圖。
+首頁已保留原本的大頭照、研究興趣圖片與四篇既有論文圖片。桌球分析專案使用 `video/` 中的示範影片，設定為自動靜音循環播放，並保留播放器控制列；兒童篩檢、醫學影像與跌倒偵測專案使用下方對應論文的圖片。尚未提供素材的項目保留獨立的 SVG 佔位圖。
 
 ## 圖片位置
 
@@ -11,8 +11,9 @@
 | 醫學影像定位與三維重建 | `images/141.png`（與論文共用） |
 | 影像與超音波跌倒偵測 | `images/16.png`（與論文共用） |
 | 生物組織大規模三維重建 | `images/kernel-fft-diagram.png`（Kernel → 2D FFT → FFT Kernel 示意圖） |
-| FLOW 論文 | `images/placeholders/flow.svg` |
-| IEEE VRW 2026 論文 | `images/placeholders/serve-training.svg` |
+| FLOW 論文 | `images/table-tennis-paddle.svg`（可愛桌球拍示意圖） |
+| SECG（ACCV 2026）論文 | `images/placeholders/secg.svg` |
+| IEEE VRW 2026 論文 | `images/table-tennis-paddle.svg`（可愛桌球拍示意圖） |
 
 ## 替換方式
 
