@@ -35,6 +35,10 @@
 
 網站沿用靜態 HTML/CSS 架構，更新圖片不需要安裝套件或執行建置。
 
+## 首頁版型
+
+首頁保留原有 Nicepage 版型，使用 `nicepage.css`、`index.css` 與 `resume.css`。`no-motion.css` 與 `no-motion.js` 保持全站無動畫；桌球示範影片仍為自動、靜音循環播放。
+
 ## Kernel FFT 示意圖
 
 `images/kernel-fft-diagram.png` 使用內建 imagegen 工具，依提供的兩張參考圖製作。
