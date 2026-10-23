@@ -39,6 +39,12 @@
 
 首頁保留原有 Nicepage 版型，使用 `nicepage.css`、`index.css` 與 `resume.css`。`no-motion.css` 與 `no-motion.js` 保持全站無動畫；桌球示範影片仍為自動、靜音循環播放。
 
+淡藍灰背景與各區塊卡片的統一樣式位於 `background-preview.css`。頁首背景使用 `images/intro-background.svg`，頁尾的靜態電路走線使用 `images/footer-circuit.svg`；署名與晶片圖示直接寫在 `index.html` 的 footer。
+
+上方導覽使用置中的 `.header-navigation`，手機版換行顯示，不使用漢堡選單。頁尾沿用 `images/icons.png` 的 Leacius 簽名圖片，透過 CSS 調亮以適應深色背景；上方不再顯示簽名圖。
+
+全頁文字使用 `background-preview.css` 中的 `--site-font` 字體設定，以 Segoe UI 為主；手寫簽名為獨立圖片，不受文字字體設定影響。
+
 ## Kernel FFT 示意圖
 
 `images/kernel-fft-diagram.png` 使用內建 imagegen 工具，依提供的兩張參考圖製作。
