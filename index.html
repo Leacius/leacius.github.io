@@ -5,13 +5,16 @@
     <meta name="keywords" content="​Tang-Chen Chang, About Me, ​Research &amp; Interests, ​Publications, ​Teaching&nbsp;Experiences">
     <meta name="description" content="Tang-Chen Chang (Leacius), Ph.D. candidate at NTHU MISLab. Research in video understanding, fine-grained action recognition, sports analytics, and medical imaging.">
     <title>Tang-Chen Chang | Computer Vision Researcher</title>
+    <link rel="icon" type="image/svg+xml" href="images/tc-favicon.svg">
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="index.css" media="screen">
 <link rel="stylesheet" href="resume.css" media="screen">
 <link rel="stylesheet" href="background-preview.css" media="screen">
+<link rel="stylesheet" href="portfolio-refresh.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <link rel="stylesheet" href="no-motion.css" media="screen">
     <script src="no-motion.js" defer></script>
+    <script src="portfolio-tabs.js" defer></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 7.14.0, nicepage.com">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,400&amp;family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;family=ADLaM+Display:wght@400">
@@ -33,15 +36,21 @@
     <meta property="og:description" content="Tang-Chen Chang (Leacius), Ph.D. candidate at NTHU MISLab. Research in video understanding, fine-grained action recognition, sports analytics, and medical imaging.">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-image u-header" id="header" data-image-width="1400" data-image-height="800"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <nav class="header-navigation" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
-          <a href="#publications">Publications</a>
-          <a href="#teaching">Teaching</a>
-        </nav>
-        <div class="u-social-icons u-menu-close-1">
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en">
+    <section class="profile-intro" id="about" aria-labelledby="profile-name">
+      <div class="profile-wrap">
+        <div class="profile-masthead" aria-label="Leacius Chang personal website"><span class="masthead-identity"><img src="images/tc-favicon.svg" alt="" width="32" height="32"><span>Leacius Chang</span></span><span class="masthead-rule" aria-hidden="true"></span><span class="masthead-note">Research, ideas &amp; a little creativity <span aria-hidden="true">✧</span></span></div>
+        <figure class="profile-portrait">
+          <img src="images/462577346_1748648392576265_3318393317210705650_n.jpg" alt="Tang-Chen Chang" width="2731" height="4096">
+          <figcaption>Leacius Chang</figcaption>
+        </figure>
+        <div class="profile-copy">
+          <h1 id="profile-name">Tang-Chen Chang</h1>
+          <p class="profile-role">Ph.D. Candidate at National Tsing Hua University</p>
+          <p class="profile-bio">I am a Ph.D. candidate at the Institute of Information Systems and Applications, National Tsing Hua University, and a member of MISLab, advised by Professor Min-Chun Hu. My research focuses on video understanding and computer vision, with an emphasis on fine-grained temporal action detection and table tennis stroke recognition for training and tactical analysis.</p>
+          <p class="profile-bio">I also work on medical image segmentation and multi-sensor fall detection. I also explore interactive AI art, combining technical implementation with creative expression. I co-created <em>From Post-Truth to AI-Truth</em>, presented at the Ars Electronica Festival 2023 Campus Exhibition in Linz, Austria.</p>
+          <ul class="profile-topics" aria-label="Research topics"><li>Video Understanding</li><li>Computer Vision</li><li>Sports Analytics</li></ul>
+          <div class="hero-actions profile-actions"><a class="work-link" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><div class="u-social-icons profile-social" aria-label="Contact and social links">
           <a class="u-social-url" target="_blank" data-type="Email" title="Email" href="mailto:karya99713@gmail.com"><span class="u-icon u-social-email u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-7ebf"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7ebf"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
@@ -61,56 +70,21 @@
           <a class="u-social-url" href="https://scholar.google.com.tw/citations?user=Lr7lEFgAAAAJ&amp;hl=zh-TW" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar (opens in a new tab)">
             <span class="u-icon u-social-icon scholar-icon"><svg class="u-svg-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" aria-hidden="true"><circle cx="56" cy="56" r="55" fill="currentColor"/><path d="M18 43 56 22 94 43 56 64Z" fill="#fff"/><path d="M34 59v19c14 12 30 12 44 0V59L56 71Z" fill="#fff"/><path d="M89 47v29" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg></span>
           </a>
+        </div></div>
         </div>
-      </div></header>
-    <section class="u-align-center u-clearfix u-container-align-center u-gradient u-image u-section-1" id="block-2" data-image-width="1280" data-image-height="853">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <h1 class="u-align-center u-custom-font u-text u-text-default u-title u-text-1"> Tang-Chen Chang</h1>
-        <p class="u-align-center u-large-text u-text u-text-variant u-text-2"> Ph.D. Candidate at National Tsing Hua University<br>Video Understanding · Computer Vision · Sports Analytics
-        </p>
-        <p class="u-align-center u-custom-font u-font-georgia u-text u-text-3"> #VideoUnderstanding #ComputerVision #SportsAnalytics #ActionRecognition</p>
+        <aside class="profile-interest" aria-labelledby="profile-interest-title">
+          <img src="images/IMG_5968.JPG" alt="Tang-Chen Chang practicing color guard with a rifle" width="721" height="1280" loading="lazy">
+          <div class="interest-copy"><span class="interest-kicker">A little about me</span><h2 id="profile-interest-title">Color Guard <span class="interest-spark" aria-hidden="true">✧</span></h2><p>Outside research, I am passionate about color guard and have participated in festivals and international competitions. I enjoy how this performance art combines movement, music, and visual expression.</p><a class="interest-link" href="https://nthucg.github.io/index.html" target="_blank" rel="noopener noreferrer">清華旗隊 · NTHU Color Guard <span aria-hidden="true">↗</span></a></div>
+        </aside>
       </div>
     </section>
-    <section class="u-clearfix u-gradient u-section-2" id="about" data-image-width="1414" data-image-height="1000">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-sheet-1">
-        <div class="u-border-15 u-border-palette-3-light-3 u-expanded-width-xs u-image u-image-circle u-preserve-proportions u-image-1" role="img" aria-label="Portrait of Tang-Chen Chang" data-image-width="2731" data-image-height="4096">
-          <div class="u-preserve-proportions-child" style="padding-top: 100%;"></div>
-        </div>
-        <h2 class="u-custom-font u-text u-text-default u-text-1">About Me</h2>
-        <p class="u-align-justify u-text u-text-2"> I am a Ph.D. candidate at the Institute of Information Systems and Applications, National Tsing Hua University, and a member of MISLab, advised by Professor Min-Chun Hu. My research focuses on video understanding and computer vision, with an emphasis on fine-grained temporal action detection and table tennis stroke recognition. I also work on medical image segmentation and multi-sensor fall detection. Beyond research, I co-created <em>From Post-Truth to AI-Truth</em>, presented at the Ars Electronica Festival 2023 Campus Exhibition in Linz, Austria.</p>
-        <p class="u-align-center u-custom-font u-font-georgia u-text u-text-3">Leacius Chang </p>
+    <div class="portfolio-tabs" id="portfolio-content">
+      <div class="portfolio-tablist" role="tablist" aria-label="Explore my background and work" hidden>
+        <button type="button" role="tab" id="tab-education" aria-controls="education" aria-selected="true">Education &amp; Skills</button>
+        <button type="button" role="tab" id="tab-projects" aria-controls="projects" aria-selected="false" tabindex="-1">Projects</button>
+        <button type="button" role="tab" id="tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications</button>
+        <button type="button" role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false" tabindex="-1">Teaching</button>
       </div>
-    </section>
-    <section class="u-align-center u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xl u-valign-top-lg u-valign-top-sm u-white u-section-3" id="sec-1c48">
-      <div class="u-expanded-width u-gradient u-shape u-shape-rectangle u-shape-1"></div>
-      <h2 class="u-align-center u-custom-font u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1"> Research &amp; Interests</h2>
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-white u-list-item-1">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-              <img src="images/from-post-truth-to-ai-truth-c-yan-lin_li-02-768x432.jpg" alt="" class="u-expanded-width u-image u-image-round u-radius u-image-1" data-image-width="768" data-image-height="432">
-              <h3 class="u-align-center u-text u-text-2"> AI Art</h3>
-              <p class="u-align-justify u-text u-text-3"> I apply AI and computer science to interactive art, combining technical implementation with creative expression. Through these projects, I explore how emerging technologies can engage audiences and shape their understanding of AI.</p>
-            </div>
-          </div>
-          <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-2">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-              <img src="images/2024-10-27130750.png" alt="" class="u-expanded-width u-image u-image-round u-radius u-image-2" data-image-width="400" data-image-height="588">
-              <h3 class="u-align-center u-text u-text-4"> Sports Analytics</h3>
-              <p class="u-align-justify u-text u-text-5"> I study human motion in sports through video understanding and fine-grained action recognition. My research focuses on recognizing player movements and stroke types in table tennis videos, with applications in training and tactical analysis.</p>
-            </div>
-          </div>
-          <div class="u-container-align-center u-container-style u-list-item u-radius u-repeater-item u-shape-round u-video-cover u-white u-list-item-3">
-            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-              <img src="images/IMG_5968.JPG" alt="" class="u-expanded-width u-image u-image-round u-radius u-image-3" data-image-width="721" data-image-height="1280">
-              <h3 class="u-align-center u-text u-text-6"> Color Guard</h3>
-              <p class="u-align-justify u-text u-text-7"> Outside research, I am passionate about color guard and have participated in festivals and international competitions. I enjoy how this performance art combines movement, music, and visual expression.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="resume-section" id="education" aria-labelledby="education-title">
       <div class="resume-wrap">
         <h2 id="education-title">Education &amp; Skills</h2>
@@ -137,6 +111,7 @@
         </ul>
       </div>
     </section>
+
 <section class="resume-section resume-tinted" id="projects" aria-labelledby="projects-title"><div class="resume-wrap">
       <h2 id="projects-title">Selected Projects</h2><div class="project-grid"><article class="resume-card project-card">
         <video class="project-image project-video" controls autoplay muted loop playsinline preload="metadata" width="960" height="600" aria-label="Table Tennis Stroke Analysis System demo">
@@ -172,7 +147,7 @@
           <p class="project-photo-credit">Photo: Yanlin Li</p>
         </div>
       </article></div></div></section>
-    <section class="resume-section" id="publications" aria-labelledby="publications-title"><div class="resume-wrap">
+<section class="resume-section" id="publications" aria-labelledby="publications-title"><div class="resume-wrap">
       <h2 id="publications-title">Publications &amp; Manuscripts</h2><div class="publication-list"><article class="publication-entry">
       <img src="images/table-tennis-paddle.svg" alt="Cute smiling table tennis paddle and ball illustrating FLOW stroke recognition research" width="240" height="160" loading="lazy">
       <div><p class="entry-meta">Submitted to WACV 2027 <span class="status-badge">Under Review</span></p><h3>FLOW: Fusing Learned Observations Within Rallies for Multimodal Stroke Recognition in Racket Sports</h3><p class="authors"><strong>T.-C. Chang</strong>, et al.</p></div>
@@ -207,6 +182,7 @@
       <article class="teaching-entry"><p class="entry-meta">2022–2023</p><div><h3>Teaching Assistant · Fun AI Winter Camp</h3><p>Supported AI learning activities at National Tsing Hua University.</p></div></article>
       <article class="teaching-entry"><p class="entry-meta">2021–2022</p><div><h3>Teaching Assistant · Introduction to Programming I</h3><p>Supported a class of more than 80 students at National Tsing Hua University.</p></div></article>
       <article class="teaching-entry"><p class="entry-meta">2021</p><div><h3>Teaching Assistant · Introduction to Computer Systems and Applications</h3><p>Supported a class of more than 80 students at National Tsing Hua University.</p></div></article></div></div></section>
+    </div>
     <footer class="circuit-footer" id="footer" aria-label="Signature and copyright">
       <div class="circuit-inner">
         <div class="circuit-signature">
@@ -220,5 +196,5 @@
     </footer>
     <!-- <section class="u-backlink u-clearfix u-grey-80"> This website was created with <a href="https://nicepage.com">Nicepage</a>
     </section> -->
-  
+
 </body></html>
