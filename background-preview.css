@@ -1,0 +1,14 @@
+/* Background concept A: only the name and About Me sections. */
+.u-section-1 {
+  background-color: #edf5f8;
+  background-image: url("images/intro-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  background-color: #fff;
+  background-image: radial-gradient(ellipse at 12% 25%, rgba(215, 230, 221, .32), transparent 55%), linear-gradient(#f7fafb, #fff);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
