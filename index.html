@@ -46,7 +46,7 @@
           <figcaption><img class="profile-signature" src="images/icons.png" alt="Leacius Chang" width="1194" height="333"></figcaption>
         </figure>
         <div class="profile-copy">
-          <h1 id="profile-name">Tang-Chen Chang</h1>
+          <h1 id="profile-name"><span>Tang-Chen Chang</span><img class="name-samoyed" src="images/samoyed-wave.png" alt="" width="1024" height="1024" aria-hidden="true"></h1>
           <p class="profile-role">Ph.D. Candidate at National Tsing Hua University</p>
           <p class="profile-bio">I am a Ph.D. candidate in the Institute of Information Systems and Applications at National Tsing Hua University and a member of MISLab, advised by Professor Min-Chun Hu. My research focuses on video understanding and computer vision, particularly fine-grained temporal action detection and table tennis stroke recognition for training and tactical analysis.</p>
           <p class="profile-bio">My work also spans medical image segmentation and multi-sensor fall detection. Beyond research, I explore interactive AI art, including <em>From Post-Truth to AI-Truth</em>, exhibited at Ars Electronica in 2023.</p>
@@ -72,26 +72,34 @@
           </a>
         </div></div></div>
         </div>
-        <div class="profile-extras"><div class="interest-heading"><div class="interest-tabs" role="tablist" aria-label="Personal interests" hidden><button type="button" role="tab" id="interest-tab-art" aria-controls="interest-art" aria-selected="true">AI Art · ARS</button><button type="button" role="tab" id="interest-tab-guard" aria-controls="interest-guard" aria-selected="false" tabindex="-1">Color Guard</button></div></div><aside id="interest-art" class="profile-interest profile-art" aria-labelledby="profile-art-title"><figure class="interest-art-media"><img class="project-image project-figure" src="images/from-post-truth-to-ai-truth-c-yan-lin_li-02-768x432.jpg" alt="From Post-Truth to AI-Truth artwork at Ars Electronica, photographed by Yanlin Li" width="960" height="600" loading="lazy"></figure><div class="interest-copy"><span class="interest-kicker">Art meets AI</span>
+
+      </div>
+    </section>
+    <div class="portfolio-tabs" id="portfolio-content">
+      <div class="portfolio-tablist" role="tablist" aria-label="Academic work and personal interests" hidden>
+        <div class="tab-cluster academic-cluster" role="presentation">
+          <button type="button" role="tab" id="tab-education" aria-controls="education" aria-selected="true">Education &amp; Skills</button>
+          <button type="button" role="tab" id="tab-projects" aria-controls="projects" aria-selected="false" tabindex="-1">Projects</button>
+          <button type="button" role="tab" id="tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications</button>
+          <button type="button" role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false" tabindex="-1">Teaching</button>
+        </div>
+        <div class="tab-cluster interests-cluster" role="presentation">
+          <button type="button" role="tab" id="tab-art" aria-controls="interest-art" aria-selected="false" tabindex="-1">AI Art · ARS</button>
+          <button type="button" role="tab" id="tab-guard" aria-controls="interest-guard" aria-selected="false" tabindex="-1">Color Guard</button>
+        </div>
+      </div>
+<aside id="interest-art" class="profile-interest profile-art" aria-labelledby="profile-art-title"><figure class="interest-art-media"><img class="project-image project-figure" src="images/from-post-truth-to-ai-truth-c-yan-lin_li-02-768x432.jpg" alt="From Post-Truth to AI-Truth artwork at Ars Electronica, photographed by Yanlin Li" width="960" height="600" loading="lazy"></figure><div class="interest-copy"><span class="interest-kicker">Art meets AI</span>
           <p class="entry-meta">AI Art · Ars Electronica Festival 2023 · Linz, Austria</p>
           <h2 id="profile-art-title">From Post-Truth to AI-Truth <span class="interest-spark" aria-hidden="true">✧</span></h2>
           <p>Co-created an AI artwork with Yanlin Li and Drew Cavicchi, exploring who defines truth in an era of AI-generated text and images.</p>
           <div class="interest-contribution"><h3>My contribution</h3><ul><li>Integrated the <strong>Hugging Face API</strong> for image generation.</li><li>Connected a <strong>Raspberry Pi and remote compute server</strong> through a cloud-shared folder, enabling real-time image generation for the installation.</li></ul></div>
           <a class="interest-link" href="https://ars.electronica.art/who-owns-the-truth/en/ai-truth/" target="_blank" rel="noopener noreferrer" aria-label="From Post-Truth to AI-Truth: official Ars Electronica exhibition page (opens in a new tab)">Ars Electronica · Exhibition <span aria-hidden="true">↗</span></a>
           <p class="project-photo-credit">Photo: Yanlin Li</p>
-        </div></aside><aside id="interest-guard" class="profile-interest" aria-label="Color Guard">
+        </div></aside>
+<aside id="interest-guard" class="profile-interest" aria-label="Color Guard">
           <figure class="interest-guard-media"><img src="images/IMG_5968.JPG" alt="Tang-Chen Chang practicing color guard with a rifle" width="721" height="1280" loading="lazy"></figure>
-          <div class="interest-copy"><span class="interest-kicker">A little about me</span><h2 id="profile-interest-title">Color Guard <span class="interest-spark" aria-hidden="true">✧</span></h2><p>Outside research, I am passionate about color guard and have participated in festivals and international competitions.</p><p>I enjoy how this performance art combines <strong>movement, music, and visual expression.</strong></p><a class="interest-link" href="https://nthucg.github.io/index.html" target="_blank" rel="noopener noreferrer">清華旗隊 · NTHU Color Guard <span aria-hidden="true">↗</span></a></div>
-        </aside></div>
-      </div>
-    </section>
-    <div class="portfolio-tabs" id="portfolio-content">
-      <div class="portfolio-tablist" role="tablist" aria-label="Explore my background and work" hidden>
-        <button type="button" role="tab" id="tab-education" aria-controls="education" aria-selected="true">Education &amp; Skills</button>
-        <button type="button" role="tab" id="tab-projects" aria-controls="projects" aria-selected="false" tabindex="-1">Projects</button>
-        <button type="button" role="tab" id="tab-publications" aria-controls="publications" aria-selected="false" tabindex="-1">Publications</button>
-        <button type="button" role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false" tabindex="-1">Teaching</button>
-      </div>
+          <div class="interest-copy"><span class="interest-kicker">A little about me</span><h2 id="profile-interest-title">Color Guard <span class="interest-spark" aria-hidden="true">✧</span></h2><p>Outside research, I am passionate about color guard and have participated in festivals and international competitions.</p><p>I enjoy how this performance art combines <strong>movement, music, and visual expression.</strong></p><a class="interest-link" href="https://nthucg.github.io/index.html" target="_blank" rel="noopener noreferrer">清華旗隊 · NTHU Color Guard <span aria-hidden="true">↗</span></a><img class="guard-mascot" src="images/maine-coon-flag-final.png" alt="Hand-drawn Maine Coon jumping with a blue and white star-patterned color guard flag" width="1024" height="1024" loading="lazy"></div>
+        </aside>
     <section class="resume-section" id="education" aria-label="Education and Skills">
       <div class="resume-wrap">
 
@@ -150,34 +158,13 @@
       </article>
       </div></div></section>
 <section class="resume-section" id="publications" aria-label="Publications"><div class="resume-wrap">
-      <div class="publication-list"><article class="publication-entry">
-      <img src="images/table-tennis-paddle.svg" alt="Cute smiling table tennis paddle and ball illustrating FLOW stroke recognition research" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">Submitted to WACV 2027 <span class="status-badge">Under Review</span></p><h3>FLOW: Fusing Learned Observations Within Rallies for Multimodal Stroke Recognition in Racket Sports</h3><p class="authors"><strong>T.-C. Chang</strong>, et al.</p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/gesture-hand.svg" alt="Cute smiling waving hand illustrating SECG gesture recognition research" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">Asian Conference on Computer Vision (ACCV), 2026 <span class="status-badge status-accepted">Accepted / To Appear</span></p><h3>SECG: A Dataset and Benchmark for Seamless Egocentric Continuous Gesture Recognition</h3><p class="authors">C.-C. Chiang, H. Chung, K. Tandian, C.-Y. Lin, C. Shawn, <strong>T.-C. Chang</strong>, et al.</p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/table-tennis-paddle.svg" alt="Cute smiling table tennis paddle and ball illustrating serve recognition training" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">IEEE VRW, 2026</p><h3>An Immersive Serve Type Recognition Skill Training System for Table Tennis Beginners</h3><p class="authors">P.-H. Huang, P. Ching, S.-H. Wu, S.-C. Liu, T.-H. Tsai, C. Ku, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1109/VRW70859.2026.00195" target="_blank" rel="noopener noreferrer" aria-label="Paper: An Immersive Serve Type Recognition Skill Training System for Table Tennis Beginners (opens in a new tab)">Paper</a></p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/2024-10-27130750.png" alt="Research illustration for Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2025 </p><h3>Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT</h3><p class="authors"><strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1145/3769299" target="_blank" rel="noopener noreferrer" aria-label="Paper: Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT (opens in a new tab)">Paper</a><a href="https://github.com/Leacius/MISTTdataset" target="_blank" rel="noopener noreferrer" aria-label="MISTTdataset · GitHub: Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT (opens in a new tab)">MISTTdataset · GitHub</a></p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/17.png" alt="Research illustration for Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">IEEE International Conference on Digital Health (ICDH), 2022 </p><h3>Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening</h3><p class="authors">C.-Y. Chen, P.-C. Hsu, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1109/ICDH55609.2022.00031" target="_blank" rel="noopener noreferrer" aria-label="Paper: Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening (opens in a new tab)">Paper</a></p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/16.png" alt="Research illustration for Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">Micromachines, 2021 </p><h3>Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors</h3><p class="authors">F.-S. Hsu, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.3390/mi12050508" target="_blank" rel="noopener noreferrer" aria-label="Paper: Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors (opens in a new tab)">Paper</a></p></div>
-    </article>
-      <article class="publication-entry">
-      <img src="images/141.png" alt="Research illustration for Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation" width="240" height="160" loading="lazy">
-      <div><p class="entry-meta">MICCAI BrainLes, 2020</p><h3>Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation</h3><p class="authors">Z.-J. Su, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1007/978-3-030-72087-2_8" target="_blank" rel="noopener noreferrer" aria-label="Paper: Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation (opens in a new tab)">Paper</a></p></div>
-    </article></div></div></section>
+      <div class="publication-list"><article class="publication-entry"><p class="publication-year">2027</p><div class="publication-note"><img src="images/table-tennis-paddle.svg" alt="Cute smiling table tennis paddle and ball illustrating FLOW stroke recognition research" width="240" height="160" loading="lazy"><div><p class="entry-meta">Submitted to WACV 2027 <span class="status-badge">Under Review</span></p><h3>FLOW: Fusing Learned Observations Within Rallies for Multimodal Stroke Recognition in Racket Sports</h3><p class="authors"><strong>T.-C. Chang</strong>, et al.</p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2026</p><div class="publication-note"><img src="images/gesture-hand.svg" alt="Cute smiling waving hand illustrating SECG gesture recognition research" width="240" height="160" loading="lazy"><div><p class="entry-meta">Asian Conference on Computer Vision (ACCV), 2026 <span class="status-badge status-accepted">Accepted / To Appear</span></p><h3>SECG: A Dataset and Benchmark for Seamless Egocentric Continuous Gesture Recognition</h3><p class="authors">C.-C. Chiang, H. Chung, K. Tandian, C.-Y. Lin, C. Shawn, <strong>T.-C. Chang</strong>, et al.</p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2026</p><div class="publication-note"><img src="images/table-tennis-paddle.svg" alt="Cute smiling table tennis paddle and ball illustrating serve recognition training" width="240" height="160" loading="lazy"><div><p class="entry-meta">IEEE VRW, 2026</p><h3>An Immersive Serve Type Recognition Skill Training System for Table Tennis Beginners</h3><p class="authors">P.-H. Huang, P. Ching, S.-H. Wu, S.-C. Liu, T.-H. Tsai, C. Ku, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1109/VRW70859.2026.00195" target="_blank" rel="noopener noreferrer" aria-label="Paper: An Immersive Serve Type Recognition Skill Training System for Table Tennis Beginners (opens in a new tab)">Paper</a></p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2025</p><div class="publication-note"><img src="images/2024-10-27130750.png" alt="Research illustration for Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT" width="240" height="160" loading="lazy"><div><p class="entry-meta">ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2025 </p><h3>Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT</h3><p class="authors"><strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1145/3769299" target="_blank" rel="noopener noreferrer" aria-label="Paper: Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT (opens in a new tab)">Paper</a><a href="https://github.com/Leacius/MISTTdataset" target="_blank" rel="noopener noreferrer" aria-label="MISTTdataset · GitHub: Fine-grained Stroke Recognition in Broadcast Table Tennis Videos with ATDT (opens in a new tab)">MISTTdataset · GitHub</a></p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2022</p><div class="publication-note"><img src="images/17.png" alt="Research illustration for Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening" width="240" height="160" loading="lazy"><div><p class="entry-meta">IEEE International Conference on Digital Health (ICDH), 2022 </p><h3>Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening</h3><p class="authors">C.-Y. Chen, P.-C. Hsu, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1109/ICDH55609.2022.00031" target="_blank" rel="noopener noreferrer" aria-label="Paper: Computer Vision-Based Cognition Assessment for Developmental-Behavioral Screening (opens in a new tab)">Paper</a></p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2021</p><div class="publication-note"><img src="images/16.png" alt="Research illustration for Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors" width="240" height="160" loading="lazy"><div><p class="entry-meta">Micromachines, 2021 </p><h3>Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors</h3><p class="authors">F.-S. Hsu, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.3390/mi12050508" target="_blank" rel="noopener noreferrer" aria-label="Paper: Smart Fall Detection Framework Using Hybridized Video and Ultrasonic Sensors (opens in a new tab)">Paper</a></p></div></div></article>
+      <article class="publication-entry"><p class="publication-year">2020</p><div class="publication-note"><img src="images/141.png" alt="Research illustration for Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation" width="240" height="160" loading="lazy"><div><p class="entry-meta">MICCAI BrainLes, 2020</p><h3>Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation</h3><p class="authors">Z.-J. Su, <strong>T.-C. Chang</strong>, et al.</p><p class="publication-links"><a href="https://doi.org/10.1007/978-3-030-72087-2_8" target="_blank" rel="noopener noreferrer" aria-label="Paper: Attention U-Net with Dimension-Hybridized Fast Data Density Functional Theory for Brain Tumor Segmentation (opens in a new tab)">Paper</a></p></div></div></article></div></div></section>
     <section class="resume-section resume-tinted" id="teaching" aria-label="Teaching"><div class="resume-wrap">
       <div class="teaching-list"><article class="teaching-entry"><p class="entry-meta">2025–2026</p><div><span class="teaching-role">Instructor</span><h3>AI4Kids Camp</h3><p>Taught action recognition fundamentals to high school students.</p></div></article>
       <article class="teaching-entry"><p class="entry-meta">2025</p><div><span class="teaching-role">Invited Speaker</span><h3>ASPEED Technology</h3><p>Delivered technical training on vision-language models (VLMs) and Hugging Face.</p></div></article>

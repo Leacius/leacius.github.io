@@ -3,6 +3,24 @@
   if (!list) return;
   const tabs = [...list.querySelectorAll('[role="tab"]')];
   const panels = tabs.map(tab => document.getElementById(tab.getAttribute('aria-controls')));
+  const interestPanels = panels.filter(panel => panel.classList.contains('profile-interest'));
+  // Match the two interest panels without reserving a tall project-sized space.
+  function sizeInterests() {
+    const heights = interestPanels.map(panel => {
+      const clone = panel.cloneNode(true);
+      clone.hidden = false;
+      clone.removeAttribute('id');
+      clone.querySelectorAll('[id]').forEach(element => element.removeAttribute('id'));
+      clone.setAttribute('aria-hidden', 'true');
+      clone.style.cssText = 'position:absolute;visibility:hidden;pointer-events:none;top:0;left:0;min-height:0;';
+      panel.parentElement.appendChild(clone);
+      const height = clone.getBoundingClientRect().height;
+      clone.remove();
+      return height;
+    });
+    const height = Math.ceil(Math.max(...heights));
+    interestPanels.forEach(panel => { panel.style.minHeight = height + 'px'; });
+  }
   function select(id, focus = false) {
     tabs.forEach((tab, index) => {
       const active = panels[index].id === id;
@@ -24,7 +42,10 @@
   const hashId = () => location.hash.slice(1);
   const valid = id => panels.some(panel => panel.id === id);
   list.hidden = false;
+  sizeInterests();
   select(valid(hashId()) ? hashId() : 'education');
+  window.addEventListener('resize', sizeInterests);
+  if (document.fonts) document.fonts.ready.then(sizeInterests);
   panels.forEach(panel => panel.querySelectorAll('video').forEach(video => {
     video.addEventListener('play', () => { if (panel.hidden) video.pause(); });
   }));
@@ -58,41 +79,5 @@
   });
   window.addEventListener('hashchange', () => {
     if (valid(hashId())) select(hashId());
-  });
-})();
-
-// Personal interests switch independently of the background/work tabs below.
-(() => {
-  const list = document.querySelector('.interest-tabs');
-  if (!list) return;
-  const tabs = [...list.querySelectorAll('[role="tab"]')];
-  const panels = tabs.map(tab => document.getElementById(tab.getAttribute('aria-controls')));
-  function select(index) {
-    tabs.forEach((tab, i) => {
-      tab.setAttribute('aria-selected', String(i === index));
-      tab.tabIndex = i === index ? 0 : -1;
-      panels[i].hidden = i !== index;
-    });
-  }
-  panels.forEach((panel, i) => {
-    panel.setAttribute('role', 'tabpanel');
-    panel.setAttribute('aria-labelledby', tabs[i].id);
-    panel.tabIndex = 0;
-  });
-  list.hidden = false;
-  select(0);
-  tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => select(index));
-    tab.addEventListener('keydown', event => {
-      let next;
-      if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
-      if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
-      if (event.key === 'Home') next = 0;
-      if (event.key === 'End') next = tabs.length - 1;
-      if (next === undefined) return;
-      event.preventDefault();
-      select(next);
-      tabs[next].focus();
-    });
   });
 })();
