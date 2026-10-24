@@ -324,3 +324,8 @@ body.u-body, .portfolio-tabs { background: var(--paper); }
 #interest-guard .interest-copy { padding-right: 180px; }
 .profile-interest .interest-copy .guard-mascot { position: absolute; right: 30px; bottom: 24px; float: none; width: 185px; max-width: 22%; margin: 0; }
 @media (max-width: 767px) { #interest-guard .interest-copy { padding-right: 0; } .profile-interest .interest-copy .guard-mascot { position: static; width: 110px; max-width: 35%; margin: 12px 0 0 auto; } }
+
+/* Preserve the full portrait installation photograph. */
+.portfolio-tabs .interest-art-media { width: 100%; max-width: 240px; justify-self: center; }
+.portfolio-tabs .interest-art-media img { height: auto; aspect-ratio: 1280 / 1707; object-fit: contain; }
+@media (max-width: 767px) { .portfolio-tabs .interest-art-media { max-width: 220px; } }
