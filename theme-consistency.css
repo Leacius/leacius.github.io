@@ -1,4 +1,8 @@
 /* Shared stationery treatment across background, work, and publications. */
+.portrait-crop { height: 300px; overflow: hidden; }
+.profile-portrait .portrait-crop > img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 20%; transform: scale(2.1); transform-origin: 56% 22%; }
+@media (max-width: 991px) { .portrait-crop { height: 280px; } }
+@media (max-width: 767px) { .portrait-crop { height: 210px; } }
 .profile-topic-contact { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 20px; margin-top: 24px; }
 .profile-topic-contact .profile-topics { margin: 0; }
 .profile-topic-contact .profile-actions { margin: 0; }
